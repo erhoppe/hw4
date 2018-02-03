@@ -2,8 +2,8 @@ import csv
 import numpy as np
 
 #### Import files #####
-score_fn = "/home/erhoppe/PycharmProjects/hw4_multiD_arrays/blossum.tsv"
-protein_fn= "/home/erhoppe/PycharmProjects/hw4_multiD_arrays/insulin.fasta"
+score_fn = "blossum.tsv"
+protein_fn = "insulin.fasta"
 
 
 #### Functions ####
@@ -59,4 +59,6 @@ protein_list = read_fasta(protein_fn)
 
 node_max_arr = make_3D_array(protein_list)
 node_ptr_arr = make_3D_array(protein_list)
+
+
 

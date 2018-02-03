@@ -1,2 +1,4 @@
-import numpy as np
-print("test_succesful")
+
+#to enumerate over the list in reverse
+for i, e in reversed(list(enumerate(a))):
+...     print i, e
