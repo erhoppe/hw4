@@ -29,3 +29,42 @@ for (auto& node : node_vect) {
 			}
 		}
 	}
+
+
+# for row in new_nodes:
+# print(row) #access values with row[0], etc.
+# print(node_max_arr(tuple(row)))
+
+
+#### IMPORTANT ACCESS OF ARRAYS ######
+# for x in np.nditer(a, op_flags=['readwrite']):
+#    x[...] = 2 * x
+# if you don't do this, it won't change the value
+
+### IMPORTANT Multi Index: https://docs.scipy.org/doc/numpy/reference/arrays.nditer.html
+
+
+
+# for i in range(new_nodes.size-1):
+# if np.less_equal(new_nodes[i,:],len_arr):
+#   print(new_nodes[i])
+
+
+# access item with  new_nodes.item
+
+## for node in node_arr
+#### generate children nodes
+#### generate score based on the vector indices
+#### if that score is bigger than the current score, replace and save indices to max parent dict
+###can maybe use where conditional to grab the original set of children node values and replace if better
+
+dict = {(0, 1, 1): (0, 0, 1)}
+print(dict)
+
+# while (a_i <= len_a + 1 or b_i <= len_b + 1 or c_i <= len_c + 1):
+#    print (a_i, b_i, c_i)
+#    a_i += 1
+#    b_i += 1
+#    c_i += 1
+
+# we should use array addition, I think to generate the possible nodes from each parent
